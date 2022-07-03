@@ -1,0 +1,43 @@
+body {
+    font: 20px Arial, Helvetica, sans-serif;
+    background-color: #7bb623;
+}
+
+h3 {
+    color: white;
+    font: 45px serif;
+}
+
+.navbar {
+    background-color: #aafa32;
+}
+
+.whoare {
+    background-color: #b2ecc4;
+    color: white;
+}
+
+.parceiros {
+    background-color: rgb(245, 143, 245);
+    color: white;
+}
+
+.serviços {
+    background-color: rgb(255, 143, 143);
+    color: white;
+}
+
+
+.margin {
+    /*top e bottom*/
+    padding: 15px 15px;
+}
+
+footer {
+    padding: 10px;
+}
+
+.bgfooter {
+    background-color: #aafa32;
+    color: white;
+}

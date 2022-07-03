@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assents/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assents/css/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+    <!--Navbar que será grande(expand-lg) e clara(light)-->
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+            <img src="/assents/img/globallabs.png" width="70%", height="70%" alt="logo da globallabs">
+        </a>
+
+        <!--Itens do navbar, com id de cada section no href-->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Whoare">Who are?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="serviços">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="who-are">
+            <!--cria texto com margem pra esquerda, com fluid pega página inteira-->
+            <div class="container-fluid text-center margin whoare">
+                <h3 class="margin">Who are</h3>
+                <img class="rounded-circle" src="/assents/img/pexel2.jpg" width="50%" height="50%" alt="imagem tela">
+                <h3>Somos um time comprometido com nossos objetivos.</h3>
+            </div>
+        </section>
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="/assents/img/dio.png" width="100%" height="100%" alt="logo da dio">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="/assents/img/dio.png" width="100%" height="100%" alt="logo da dio">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="/assents/img/dio.png" width="100%" height="100%"  alt="logo da dio">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="serviços">
+            <div class="container-fluid text-center margin serviços">
+                <h3 class="margin">Services</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam esse explicabo tempore suscipit maxime.</p>
+                            <img src="/assents/img/pexel.jpg" width="90%" height="90%">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quibusdam vitae fuga? Praesentium, animi unde?</p>
+                            <img src="/assents/img/pexel3.jpg" width="90%" height="90%" alt="imagem de celular">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt asperiores ipsa expedita tempora fugiat iste!</p>
+                            <img src="/assents/img/app.jpg" width="90%" height="90%" alt="celular">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid text-center bgfooter">
+        <p>Desenvolvido por Elis Mattosinho</p>
+    </footer>
+
+</body>
+</html>
